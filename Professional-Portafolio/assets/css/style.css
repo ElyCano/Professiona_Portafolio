@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #343232;
+  --secondary-color: #90bdbf;
+  --tertiary-color: #740642;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--primary-color);
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(238, 235, 241);
+}
+
+/* HEADER / NAV BAR STYLES START */
+
+header {
+  padding: 20px 35px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 48px;
+  color: var(--primary-color);
+  background-color: #90bdbf;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  text-decoration: underline cadetblue;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.45vw;
+}
+
+:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+/* HEADER / NAVBAR STYLES END */
