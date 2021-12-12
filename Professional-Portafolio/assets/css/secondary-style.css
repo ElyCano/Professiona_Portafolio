@@ -1,11 +1,5 @@
 /* SECONDARY PAGE STYLES */
 
-:root {
-  --primary-color: #343232;
-  --secondary-color: #90bdbf;
-  --tertiary-color: #740642;
-}
-
 .hero {
   background-position: bottom;
   height: auto;

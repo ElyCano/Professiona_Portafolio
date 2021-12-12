@@ -62,7 +62,7 @@ header nav ul li a {
   font-size: 1.45vw;
 }
 
-:hover {
+header nav ul li a:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
   border-radius: 15px;
@@ -125,12 +125,11 @@ img {
   border-radius: 4px;
   padding: 5px;
 }
-
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-.intro :hover {
+.flex-item:hover {
   color: var(--primary-color);
   border-radius: 5px;
   cursor: pointer;
@@ -220,6 +219,14 @@ img:hover {
   font-weight: bold;
   font-size: 21px;
 }
+
+.flex-container a:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
 /* ENDS CONTACT STYLES */
 
 footer {
@@ -234,32 +241,9 @@ footer {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  header nav ul li a {
-    font-size: 20px;
-  }
-}
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-  section {
-    padding: 30px 15px;
+  main,
+  nav {
+    flex-direction: column;
   }
 }
