@@ -1,0 +1,58 @@
+/* SECONDARY PAGE STYLES */
+
+:root {
+  --primary-color: #343232;
+  --secondary-color: #90bdbf;
+  --tertiary-color: #740642;
+}
+
+.hero {
+  background-position: bottom;
+  height: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-title {
+  padding: 0 80px 15px 80px;
+  font-size: 42px;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--secondary-color);
+  display: inline-block;
+  border-bottom: 4px solid var(--secondary-color);
+}
+
+.secondary-content {
+  width: 80%;
+  margin: 0 auto;
+  color: var(--primary-color);
+  font-weight: 200;
+}
+
+.secondary-content h3 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.secondary-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.secondary-content ul {
+  margin: 15px 20px;
+}
+
+.secondary-content li {
+  color: var(--tertiary-color);
+  margin: 10px 0;
+}
+
+footer {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
