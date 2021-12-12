@@ -203,6 +203,11 @@ img:hover {
   color: var(--secondary-color);
 }
 
+.flex-item:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
 /* END WORK STYLES */
 
 /* CONTACT ME STYLES */
