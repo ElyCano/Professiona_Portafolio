@@ -185,7 +185,16 @@ img:hover {
 .flex-item h4 {
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex-item h3 {
+  color: #344648;
+  background-color: var(--secondary-color);
   font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .flex-item {
