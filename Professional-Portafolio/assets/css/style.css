@@ -277,6 +277,10 @@ footer {
     font-size: 12px;
   }
 
+  .flex-item {
+    flex-basis: fit-content;
+  }
+
   .intro h2 {
     font-size: 15px;
   }
