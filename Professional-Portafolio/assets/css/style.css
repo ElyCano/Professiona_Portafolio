@@ -20,7 +20,7 @@ body {
 
 header {
   padding: 20px 35px;
-  background-color: var(--primary-color);
+  background-color: #272f32;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -243,7 +243,7 @@ footer {
   justify-content: center;
   padding: 20px;
   text-align: center;
-  background: var(--primary-color);
+  background: #272f32;
   color: var(--secondary-color);
   font-size: 25px;
   font-weight: bold;
