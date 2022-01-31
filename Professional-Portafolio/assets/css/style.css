@@ -1,7 +1,7 @@
 :root {
   --primary-color: #343232;
-  --secondary-color: #90bdbf;
-  --tertiary-color: #740642;
+  --secondary-color: #9dbdc6;
+  --tertiary-color: rgb(61, 22, 13);
 }
 
 * {
@@ -13,7 +13,7 @@
 body {
   color: var(--primary-color);
   font-family: Helvetica, Arial, sans-serif;
-  background-color: rgb(238, 235, 241);
+  background-color: #edefee;
 }
 
 /* HEADER / NAV BAR STYLES START */
@@ -33,7 +33,7 @@ header h1 {
   margin: 0;
   font-size: 48px;
   color: var(--primary-color);
-  background-color: #90bdbf;
+  background-color: #9dbdc6;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -72,7 +72,7 @@ header nav ul li a:hover {
 /* HERO STYLES START */
 .hero {
   top: 0;
-  background-image: url("../images/02-hero-bg.jpg");
+  background-image: url("../images/02-hero-bg2.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -88,7 +88,7 @@ header nav ul li a:hover {
   font-size: 25px;
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #90bdbf;
+  background-color: #9dbdc6;
 }
 
 /* HERO STYLES END */
@@ -173,7 +173,7 @@ img:hover {
 }
 
 .runbuddy {
-  background-image: url("../images/02-run-buddy.jpg");
+  background-image: url("../images/02-run-buddy-1.jpg");
 }
 
 .flex-container p {
